@@ -1,0 +1,35 @@
+example_controller.example1:
+  path: example-controller/example1
+  defaults:
+    _content: '\Drupal\example_controller\Controller\Example1Controller::exampleRender'
+  requirements:
+    _permission: 'access administration pages'
+
+
+example_controller.example2:
+  path: example-controller/example2/{id}/{example_name}
+  defaults:
+    _content: '\Drupal\example_controller\Controller\Example2Controller::exampleRender'
+  requirements:
+    _permission: 'access administration pages'
+
+example_controller.example3:
+  path: example-controller/example3
+  defaults:
+    _content: '\Drupal\example_controller\Controller\Example3Controller::exampleRender'
+  requirements:
+    _permission: 'access administration pages'
+
+example_controller.example4:
+  path: example-controller/example4
+  defaults:
+    _content: '\Drupal\example_controller\Controller\Example4Controller::exampleRender'
+  requirements:
+    _permission: 'access administration pages'
+
+example_controller.example5:
+  path: example-controller/example5
+  defaults:
+    _content: '\Drupal\example_controller\Controller\Example5Controller::exampleRender'
+  requirements:
+    _permission: 'access administration pages'

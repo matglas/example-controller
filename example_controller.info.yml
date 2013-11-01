@@ -1,0 +1,6 @@
+name: Example Controller module
+type: module
+description: 'Example Controller module.'
+package: Core
+version: VERSION
+core: 8.x
